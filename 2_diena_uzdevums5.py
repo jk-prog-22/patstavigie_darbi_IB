@@ -12,9 +12,9 @@ tarifs_4 = paterins * 0.0487234
 
 if paterins <= 2635:
     print("Jums jāmaksā (EUR): " + str(round(tarifs_1, 2)))
-if paterins > 2635 <= 5269:
+if paterins > 2635 and paterins <= 5269:
     print("Jums jāmaksā (EUR): " + str(round(tarifs_2, 2)))
-if paterins > 5269 <= 63227.9:
+if paterins > 5269 and paterins <= 63227.9:
     print("Jums jāmaksā (EUR): " + str(round(tarifs_3, 2)))
-if paterins > 63227.9 <= 263450:
+if paterins > 63228 and paterins <= 263450:
     print("Jums jāmaksā (EUR): " + str(round(tarifs_4, 2)))
