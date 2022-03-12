@@ -5,27 +5,27 @@
 
 month = str(input("Ievadi mēnesi:"))
 
-if month == "Janvāris":
+if month.casefold() == "Janvāris".casefold():
     print("Janvārī ir 31 diena")
-elif month == "Februāris":
+elif month.casefold() == "Februāris".casefold():
     print("Februārī ir 28 dienas")
-elif month == "Marts":
+elif month.casefold() == "Marts".casefold():
     print("Martā ir 31 diena")
-elif month == "Aprīlis":
+elif month.casefold() == "Aprīlis".casefold():
     print("Aprīlī ir 30 dienas")
-elif month == "Maijs":
+elif month.casefold() == "Maijs".casefold():
     print("Maijā ir 31 diena")
-elif month == "Jūnijs":
+elif month.casefold() == "Jūnijs".casefold():
     print("Jūnijā ir 30 dienas")
-elif month == "Jūlijs":
+elif month.casefold() == "Jūlijs".casefold():
     print("Jūlijā ir 31 diena")
-elif month == "Augusts":
+elif month .casefold()== "Augusts".casefold():
     print("Augustā ir 31 diena")
-elif month == "Septembris":
+elif month .casefold()== "Septembris".casefold():
     print("Septembrī ir 30 dienas")
-elif month == "Novembris":
+elif month .casefold()== "Novembris".casefold():
     print("Novembrī ir 30 dienas")
-elif month == "Decembris":
+elif month.casefold() == "Decembris".casefold():
     print("Decembrī ir 31 diena")
 else:
     print("Šāds mēnesis nav atrasts ", month)
