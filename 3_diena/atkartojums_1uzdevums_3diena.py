@@ -4,39 +4,33 @@
 
 
 month = str(input("Ievadi mēnesi:"))
-m_1 = "Janvāris"
-m_2 = "Februāris"
-m_3 = "Marts"
-m_4 = "Aprīlis"
-m_5 = "Maijs"
-m_6 = "Jūnijs"
-m_7 = "Jūlijs"
-m_8 = "Augusts"
-m_9 = "Septembris"
-m_10 = "Oktobris"
-m_11 = "Novembris"
-m_12 = "Decembris"
 
-if month == m_3:
+if month == "Janvāris":
+    print("Janvārī ir 31 diena")
+elif month == "Februāris":
+    print("Februārī ir 28 dienas")
+elif month == "Marts":
     print("Martā ir 31 diena")
-if month == m_4:
+elif month == "Aprīlis":
     print("Aprīlī ir 30 dienas")
-if month == m_5:
+elif month == "Maijs":
     print("Maijā ir 31 diena")
-if month == m_6:
+elif month == "Jūnijs":
     print("Jūnijā ir 30 dienas")
-if month == m_7:
+elif month == "Jūlijs":
     print("Jūlijā ir 31 diena")
-if month == m_8:
+elif month == "Augusts":
     print("Augustā ir 31 diena")
-if month == m_9:
+elif month == "Septembris":
     print("Septembrī ir 30 dienas")
-if month == m_10:
-    print("Oktobrī ir 31 diena")
-if month == m_11:
-    print("Novembrī ir 30 diena")
-if month == m_12:
+elif month == "Novembris":
+    print("Novembrī ir 30 dienas")
+elif month == "Decembris":
     print("Decembrī ir 31 diena")
+else:
+    print("Šāds mēnesis nav atrasts ", month)
+
+
 
 
 
